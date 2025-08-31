@@ -1,0 +1,50 @@
+.back_sym {
+    float: right;
+    font-size: 100px;
+    color: green;
+    height: 50px;
+    margin-left: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: gold;
+    float: right;
+  }
+  
+  a:hover {
+    color: red;
+  }
+  
+  .top_row {
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+  }
+
+body {
+    background-color: #123456;
+    color: gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.text {
+    display: inline;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 50px;
+    float: right;
+}
+
+.text h2 {
+    width: 40px;
+    display: inline;
+    
+}
+

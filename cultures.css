@@ -1,0 +1,85 @@
+.back_sym {
+    float: right;
+    font-size: 100px;
+    color: green;
+    height: 50px;
+    margin-left: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: gold;
+    float: right;
+  }
+  
+  a:hover {
+    color: red;
+  }
+  
+  .top_row {
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  h1 {
+    font-size: 50px;
+    float: right;
+}
+
+
+body {
+    background-color: #123456;
+    color: gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.cultures_table {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background-color: orange;
+    color: white;
+}
+
+tr th:nth-child(1){
+    width: 60px;
+    text-align: center;
+    background-color: lightsalmon;
+}
+
+.cultures {
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+    border: 1px solid orange;
+    border-collapse: collapse;
+    column-width: 250px; 
+}
+
+tr:nth-child(n+2){
+    height: 200px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    transform: scalex(-1);
+}
